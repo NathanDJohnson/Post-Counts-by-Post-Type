@@ -1,7 +1,7 @@
 <?php
 	/*
 	 * Plugin Name: Post Counts by Post Type
-	 * Plugin URI: http://atmoz.org/
+	 * Plugin URI: https://github.com/NathanDJohnson/Post-Counts-by-Post-Type
 	 * Description: Adds Post Counts for Custom Post Types in User List
 	 * Version: 1.0.0
 	 * Author: Nathan Johnson
