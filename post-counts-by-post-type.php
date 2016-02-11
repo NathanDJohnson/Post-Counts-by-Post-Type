@@ -59,7 +59,7 @@ function pcbpt_get_author_post_type_counts( $post_type , $user_id ) {
                     COUNT(*) AS post_count
 	FROM        $wpdb->posts
 	WHERE       post_type = %s
-                    AND post_author = %s
+                    AND post_author = %d
                     AND post_type NOT IN ('revision','nav_menu_item')
                     AND post_status IN ('publish','pending')
         GROUP BY    post_type,
